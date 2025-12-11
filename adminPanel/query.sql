@@ -1,0 +1,17 @@
+ALTER TABLE `banner` CHANGE `titleEn` `titleEn` TEXT CHARACTER SET utf8 COLLATE utf8_bin NOT NULL; 
+UPDATE `banner` SET `titleEn` = 'Successful Products Launches' WHERE `banner`.`id` = 3; 
+UPDATE `banner` SET `descriptionEn` = 'In depth knowledge of the market place supported by innovative marketing approaches to secure efficient market penetration.' WHERE `banner`.`id` = 3; 
+UPDATE `banner` SET `titleEn` = 'State of Art Business Model' WHERE `banner`.`id` = 4; 
+UPDATE `banner` SET `descriptionEn` = 'Unique business model, based \non establishing “one point of contact” \nto provide medical, product and \ncompetitors handling training \nsupported by marketing tools, \nmarket analysis and in-market\nfield coaching.' WHERE `banner`.`id` = 4; 
+UPDATE `banner` SET `titleEn` = 'Strong Network of Business Partners and Local Distributors' WHERE `banner`.`id` = 2; 
+UPDATE `company_information` SET `welcomeEn` = 'Biocare Pharma LLC is a UAE based company for distributing therapeutic drug, supplements and medical devices to many countries in the Middle East and North Africa (MENA), having more than 15 years of experience in this domain.' WHERE `company_information`.`id` = 1; 
+UPDATE `business` SET `descriptionEn` = 'Full portfolio to secure a healthy lifestyle for women throughout their life journey.' WHERE `business`.`id` = 2; 
+UPDATE `business` SET `descriptionEn` = 'Market leader in irritable bowel syndrome and dyspepsia management.' WHERE `business`.`id` = 3; 
+UPDATE `business` SET `descriptionEn` = 'Full range of products for infantile colic, gastroenteritis, and immunity boosting.' WHERE `business`.`id` = 4; 
+UPDATE `business` SET `descriptionEn` = 'First of it’s kind innovative products for the management of Osteoarthritis and Osteoporosis.' WHERE `business`.`id` = 5; 
+UPDATE `business` SET `descriptionEn` = 'Unique range of products for the management of androgenic alopecia, cellulite and scars in oral and topical forms.' WHERE `business`.`id` = 6; 
+UPDATE `company_information` SET `phone` = '+962 79 552 4229' WHERE `company_information`.`id` = 1; 
+ALTER TABLE `company_information` ADD `facebook2` TEXT NOT NULL AFTER `updatedBy`; 
+UPDATE `company_information` SET `aboutUsEn` = 'Registered in United Arab Emirates (UAE) , IMT RAK\n( Innovative Medical Technologies Trading FZ-LLC) a regional distributor of Pharmaceutical Products, Food Supplements\nand Medical Devices, operating in the Middle East and North Africa (MENA) Region for the past 15 years. Our executive team at the regional\noffice our executive team at the regional office, has more than 25 years of experience in the Pharmaceutical and medical business, in different\nfields, including but not limited to business management, regulatory, logistics, sales and marketing assuring efficient\nmarket penetration based on implementing reliable code of conduct.' WHERE `company_information`.`id` = 1; 
+ALTER TABLE `company_information` CHANGE `locationEn` `locationEn` TEXT CHARACTER SET utf8 COLLATE utf8_bin NOT NULL; 
+INSERT INTO `business` (`id`, `image`, `titleEn`, `titleAr`, `descriptionEn`, `descriptionAr`, `createdDate`, `createdBy`, `udatedDate`, `updatedBy`) VALUES (NULL, 'IMT63282694ed4cb8.05312574.png', 'Urology', '', 'Unique remedies for men infertility and hypogonadism.', '', '2022-09-19', '0', '0000-00-00', '0'); 
