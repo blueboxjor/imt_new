@@ -50,7 +50,7 @@
 			<div class="fullwidth" style="margin-top: 100px;" data-aos="fade-down">
 				<h1>Products Therapeutic Areas</h1><br>
 
-				<div class="row">
+<div class="row row-cols-8">
 					<?php 
                         		$row = TableList('business');
                                 foreach($row as $value){
@@ -61,7 +61,7 @@
                                         $class="";
                                     }
                         ?>
-					<div class="col-md-3 newMaxHeight">
+<div class="col newMaxHeight">
 						<div class="at-icon-box-v1  ">
 
 							<a class="at-icon__main-v1 zoom" href="categories.php?id=<?php echo $value->id;?>"><i><img style="width: 50%;"

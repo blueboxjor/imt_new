@@ -5,8 +5,8 @@
 				<aside id="text-4" class="whitetext widget widget_text  col_4">
 
 					<div class="textwidget">
-						<p><img src="<?php echo IMAGES .  'imt_mkt_logo.jpeg'; ?>" height="200px"
-								alt="IMT"></p>
+						<p><img src="<?php echo IMAGES .  '2.png'; ?>" height="100px"
+								alt="Biocare"></p>
 						<!-- <h5>Committed to Excellence</h5> -->
 					</div>
 				</aside>
@@ -73,7 +73,7 @@
 						<img src="<?php echo IMAGES .  'World_Map.png'; ?>" usemap="#image-map">
 
 						<map name="image-map">
-							<area target="_blank" alt="IMT-MKT" title="IMT-MKT" href="https://maps.app.goo.gl/JGN2ebKgnFbNNaHz6" coords="5,5,856,409" shape="rect">
+							<area target="_blank" alt="IMT-MKT" title="biocare" href="https://maps.app.goo.gl/JGN2ebKgnFbNNaHz6" coords="5,5,856,409" shape="rect">
 						</map>
 					</div>
 				</aside>

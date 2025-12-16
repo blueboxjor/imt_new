@@ -45,12 +45,12 @@ include("website_top_header.php");?>
     <!-- <div class="labora_page_loader" style="display: none;"></div> -->
     <div id="wrapper">
         <header class="header-style1">
-            <div class="header">
+<div class="header" style="height:60px; display:flex; align-items:center;">
                 <div class="header-area">
                     <div class="logo">
-                        <a href="index.php" title="IMT">
+                        <a href="index.php" title="Biocare">
                             <img src="<?php echo UPLOADS .   get_column('company_information','logo',1); ?>"
-                                width="170px" alt="IMT">
+                                width="170px" alt="Biocare">
                         </a>
                     </div><!-- /logo -->
                     <div class="primarymenu menuwrap" style="padding-left: 90px;">
@@ -85,4 +85,5 @@ include("website_top_header.php");?>
                     </ul>
                 </div><!-- .iva-mobile-menu-->
             </div><!-- .header-->
+            
         </header><!-- #header -->

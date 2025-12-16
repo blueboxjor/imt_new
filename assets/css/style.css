@@ -884,9 +884,12 @@ figure {
 }
 
 figure img {
-    width: auto;
-    max-width: 100%;
+    width: 350px;
+    max-width: 300px;
+    height: auto;
+    display: block;    
 }
+
 
 #pagebg {
     position: fixed;
