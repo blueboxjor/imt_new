@@ -7,7 +7,7 @@
             <main class="content-area ">
                 <div class="clearfix">
                     <div class="fullwidth" style="margin-top: 15px; margin-bottom: 100px;" data-aos="fade-down">
-                        <div class="row">
+<div class="row row-cols-8">
                             <?php 
                         		$row = TableList('business');
                                 foreach($row as $value){
@@ -18,7 +18,7 @@
                                         $class="";
                                     }
                             ?>
-                            <div class="col-md-2 newMaxHeight">
+<div class="col newMaxHeight">
                                 <div class="at-icon-box-v1  ">
 
                                     <a class="at-icon__main-v1 zoom"
@@ -55,7 +55,7 @@
                         <div data-aos="fade-right" class="one_half "
                             style="background: url(images/bbb.jpg); background-size: contain; background-repeat: no-repeat;">
                             <figure>
-                                <img style="margin-left: -11%; " src="<?php echo UPLOADS . $value1->image; ?>" alt="">
+                                <img style="margin-left: -15%; " src="<?php echo UPLOADS . $value1->image; ?>" alt="">
                                 
                             </figure>
                         </div>

@@ -7,6 +7,7 @@
             <main class="content-area ">
                 <div class="clearfix">
                     <div class="row">
+                        
                         <?php
                             $row1 = get_SpecificList('product', 'id', $_GET['id']);
                             foreach ($row1 as $value1) {
@@ -14,9 +15,10 @@
                         <div data-aos="fade-right" class="one_half "
                             style="background: url(images/bbb.jpg); background-size: contain; background-repeat: no-repeat;">
                             <figure>
-                                <img  src="<?php echo UPLOADS . $value1->image; ?>" alt="">
+                                <img style="margin-left: -15%; src="<?php echo UPLOADS . $value1->image; ?>" alt="">
                             </figure>
                         </div>
+                        
                         <!-- .one_third-->
                         <div data-aos="fade-left" class="one_half   last">
                             <div class=" ">

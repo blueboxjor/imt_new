@@ -884,10 +884,8 @@ figure {
 }
 
 figure img {
-    width: 350px;
-    max-width: 300px;
-    height: auto;
-    display: block;    
+    width: auto;
+    max-width: 100%;  
 }
 
 
