@@ -1,12 +1,12 @@
 <?php 
 $where = "local";
 if($where == "local" ) {
-    define("Root", "http://localhost/IMT/");
-    define("PROJECT_ROOT", $_SERVER['DOCUMENT_ROOT'] . "/IMT/");
+    define("Root", "http://localhost/imt_new/");
+    define("PROJECT_ROOT", $_SERVER['DOCUMENT_ROOT'] . "/imt_new/");
     define("server","localhost");
     define("username","root");
     define("password", "");
-    define("db_name", "imt");
+    define("db_name", "imt_new");
 }
 else {
     define("Root", "https://vision.blueboxjo.com/");
@@ -26,7 +26,7 @@ define("ASSETS",Root."assets/");
 define("PANEL_ASSETS",Root."panel_assets/");
 
 define ('PROJECT_NAME', 'IMT');
-define ('company_Name', 'IMT');
+define ('company_Name', 'BIOCARE');
 
 define ('Email_Address', '');
 define ('Phone', '');
