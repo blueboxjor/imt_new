@@ -80,8 +80,12 @@
                                     </strong>
 
 
-                                    <br><a href="product.php?id=<?php echo $value1->id; ?>"><button
-                                            style="background-color: #0084B3;">Read More</button></a>
+                        <?php /* 
+<br><a href="product.php?id=<?php echo $value1->id; ?>">
+    <button style="background-color: #0084B3;">Read More</button>
+</a>
+*/ ?>
+
                                 </div>
                             </p>
                         </div>
@@ -104,8 +108,12 @@
                                 </strong>
 
 
-                                <br><a href="product.php?id=<?php echo $value1->id; ?>"><button
-                                        style="background-color: #0084B3;">Read More</button></a>
+<?php /* 
+<br><a href="product.php?id=<?php echo $value1->id; ?>">
+    <button style="background-color: #0084B3;">Read More</button>
+</a>
+*/ ?>
+
                             </div>
                         </p>
                     </div>
