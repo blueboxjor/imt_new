@@ -41,7 +41,7 @@ $UserInfo=get_record($sql);
                         <hr>
                     </li>
                     <li class="dashboard_section nav-item" >
-                    	<a href="<?php echo Root . "homepage.php"; ?>" class="nav-link ">
+                    	<a href="<?php echo Root . "adminPanel/homepage.php"; ?>" class="nav-link ">
                         <span class="pcoded-micon"><i class="feather icon-home"></i></span>
                         <span class="pcoded-mtext"><?php echo $StringArray[0]; ?></span>
                         </a>
@@ -99,9 +99,9 @@ $UserInfo=get_record($sql);
     <header class="navbar pcoded-header navbar-expand-lg navbar-light header-blue">
         <div class="m-header">
             <a class="mobile-menu" id="mobile-collapse" href="#!"><span></span></a>
-            <a href="#!" class="b-brand">
+            <!-- <a href="#!" class="b-brand">
                 <img src="../images/logo.png" class="img-radius" style="height:60px;width:60px;" alt="" class="logo" />
-            </a>
+            </a> -->
             <a href="#!" class="mob-toggler">
                 <i class="feather icon-more-vertical"></i>
             </a>

@@ -1442,7 +1442,7 @@ body:not(.fullwidth) .entry-content-wrapper {
 
 .logo {
     display: table-cell;
-    min-height: 70px;
+    /* min-height: 70px; */
     padding: 0;
     position: relative;
     vertical-align: middle;
