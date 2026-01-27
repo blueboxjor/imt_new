@@ -15,7 +15,7 @@
                         <div data-aos="fade-right" class="one_half "
                             style="background: url(images/bbb.jpg); background-size: contain; background-repeat: no-repeat;">
                             <figure>
-                                <img style="margin-left: -15%; src="<?php echo UPLOADS . $value1->image; ?>" alt="">
+                                <img style="margin-left: -15%;" src="<?php echo UPLOADS . $value1->image; ?>" alt="">
                             </figure>
                         </div>
                         
