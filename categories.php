@@ -78,13 +78,16 @@
                                         <h3 style="font-size:19px !important; text-align: justify;">
                                             <?php echo $value1->descriptionEn; ?></h3>
                                     </strong>
+                        
 
-
-                        <?php /* 
-<br><a href="product.php?id=<?php echo $value1->id; ?>">
-    <button style="background-color: #0084B3;">Read More</button>
-</a>
-*/ ?>
+                        
+                            <?php if (!empty($value1->descriptionAr)) { ?>
+                            <br>
+                            <a href="product.php?id=<?php echo $value1->id; ?>">
+                                <button style="background-color: #0084B3;">Read More</button>
+                            </a>
+                            <?php } ?>
+                            
 
                                 </div>
                             </p>
@@ -108,11 +111,13 @@
                                 </strong>
 
 
-<?php /* 
-<br><a href="product.php?id=<?php echo $value1->id; ?>">
-    <button style="background-color: #0084B3;">Read More</button>
-</a>
-*/ ?>
+
+                            <?php if (!empty($value1->descriptionAr)) { ?>
+                            <br><a href="product.php?id=<?php echo $value1->id; ?>">
+                                <button style="background-color: #0084B3;">Read More</button>
+                            </a>
+                            <?php } ?>
+
 
                             </div>
                         </p>
